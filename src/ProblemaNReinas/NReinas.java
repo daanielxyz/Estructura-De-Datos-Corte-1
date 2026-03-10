@@ -1,5 +1,7 @@
 package ProblemaNReinas;
 
+import java.util.Scanner;
+
 public class NReinas {
     ///Dado un tablero de ajedrez n*n, colocar n reinas en el tablero de manera que ninguna amenace a otra.
     ///El objetivo es encontrar todas las configuraciones posibles del tablero donde el enunciado anterior sea posible.
@@ -56,5 +58,9 @@ public class NReinas {
         } else {
             System.out.println("No Solucion encontrada");
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println();
     }
 }
